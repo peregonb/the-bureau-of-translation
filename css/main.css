@@ -1,0 +1,204 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+[class*="col-"] {
+    background-clip: padding-box;
+    border: 7.5px solid transparent;
+}
+
+
+/*START SERVICES TAB*/
+
+.container__services {
+    background-color: #d7d7d7;
+    height: auto;
+}
+
+.headlight__text_blue {
+    color: #2b569a;
+    font-family: "segoe_ui";
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    margin-top: 54px;
+    text-align: center;
+}
+
+.headlight__hr_blue {
+    border-top: 2px solid #2b569a;
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.services__tile {
+    margin-top: 28.5px;
+    padding: 0;
+
+}
+.services__tile:last-child{
+	    margin-bottom: 67.5px;
+}
+.services__subtile_1 {
+    background-color: #2b559a;
+    height: 147px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t1.png);
+}
+
+.services__subtile_2 {
+    height: 147px;
+    background-color: #427ad4;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t2.png);
+}
+
+.services__subtile_3 {
+    height: 147px;
+    background-color: #427ad4;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t3.png);
+}
+
+.services__subtile_4 {
+    background-color: #2b559a;
+    height: 147px;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t4.png);
+}
+
+.services__subtile_5 {
+    height: 147px;
+    background-color: #427ad4;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t5.png);
+}
+
+.services__subtile_6 {
+    height: 147px;
+    background-color: #427ad4;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t6.png);
+}
+
+.services__subtile_7 {
+    height: 147px;
+    background-color: #427ad4;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t7.png);
+}
+
+.services__subtile_8 {
+    height: 147px;
+    background-color: #427ad4;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t8.png);
+}
+
+.services__subtile_9 {
+    background-color: #2b559a;
+    height: 147px;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/t9.png);
+}
+
+.services__subtile_10 {
+    border-bottom: 0;
+}
+
+.services__subtile_10_text {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: #2b569a;
+    font-family: "segoe_ui_bold";
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.services__map {
+    background-image: url(../img/map.png);
+    margin: 0 auto;
+    width: 288px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 196px;
+}
+
+.services__subtile_11 {
+    height: 50px;
+    border: 3px solid #2b559a;
+    margin-top: 5px;
+    width: calc(58.33333333% - 7.5px);
+    line-height: 45px;
+    margin-right: 7.5px;
+}
+
+.services__subtile_12 {
+    width: calc(41.66666667% - 15px);
+    height: 50px;
+    margin-left: 7.5px;
+    margin-top: 5px;
+    border: 0;
+    background-color: #f90;
+    line-height: 50px;
+}
+
+.black {
+    color: #282828;
+}
+.subtile__white_text{
+color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 5px);
+    text-align: center;
+}
+
+/*END SERVICES TAB*/
