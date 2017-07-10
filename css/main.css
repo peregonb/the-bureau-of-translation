@@ -54,7 +54,7 @@ a {
     display: flex;
     justify-content: center;
     line-height: 30px;
-    margin-top: 54px;
+    margin-top: 45px;
     text-align: center;
 }
 
@@ -68,11 +68,12 @@ a {
 .services__tile {
     margin-top: 28.5px;
     padding: 0;
+}
 
+.services__tile:last-child {
+    margin-bottom: 67.5px;
 }
-.services__tile:last-child{
-	    margin-bottom: 67.5px;
-}
+
 .services__subtile_1 {
     background-color: #2b559a;
     height: 147px;
@@ -84,7 +85,7 @@ a {
 .services__subtile_2 {
     height: 147px;
     background-color: #427ad4;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t2.png);
 }
@@ -92,7 +93,7 @@ a {
 .services__subtile_3 {
     height: 147px;
     background-color: #427ad4;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t3.png);
 }
@@ -100,7 +101,7 @@ a {
 .services__subtile_4 {
     background-color: #2b559a;
     height: 147px;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t4.png);
 }
@@ -108,7 +109,7 @@ a {
 .services__subtile_5 {
     height: 147px;
     background-color: #427ad4;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t5.png);
 }
@@ -116,7 +117,7 @@ a {
 .services__subtile_6 {
     height: 147px;
     background-color: #427ad4;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t6.png);
 }
@@ -124,7 +125,7 @@ a {
 .services__subtile_7 {
     height: 147px;
     background-color: #427ad4;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t7.png);
 }
@@ -132,7 +133,7 @@ a {
 .services__subtile_8 {
     height: 147px;
     background-color: #427ad4;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t8.png);
 }
@@ -140,7 +141,7 @@ a {
 .services__subtile_9 {
     background-color: #2b559a;
     height: 147px;
-        background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/t9.png);
 }
@@ -189,11 +190,16 @@ a {
     line-height: 50px;
 }
 
+.work_with_ukraine {
+    font-size: 15px;
+}
+
 .black {
     color: #282828;
 }
-.subtile__white_text{
-color: white;
+
+.subtile__white_text {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,4 +207,167 @@ color: white;
     text-align: center;
 }
 
+
 /*END SERVICES TAB*/
+
+
+/*START TRUST TAB*/
+
+.row {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.trust__item1 {
+    background-image: url(../img/bosch.png) !important;
+    height: 50px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trust__item2 {
+    background-image: url(../img/navien.png);
+    height: 50px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trust__item3 {
+    background-image: url(../img/viesman.png);
+    height: 50px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trust__leftchev {
+    background-image: url(../img/left_chevron_t.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    padding: 0;
+}
+
+.trust__rightchev {
+    background-image: url(../img/right_chevron_t.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50px;
+    padding: 0;
+}
+
+.large-12 {
+    position: relative;
+    top: -8px;
+    padding: 0;
+}
+
+.demos {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+/*END TRUST TAB*/
+
+
+/*START PRICES TAB*/
+
+.container__prices {
+    background-color: #27569b;
+}
+
+.white {
+    color: white;
+    border-color: white;
+}
+
+.prices__leftchev {
+    background-image: url(../img/prices_lchev.png);
+    height: 55px;
+    margin-top: 100px;
+}
+
+.prices__rightchev {
+    background-image: url(../img/prices_rchev.png);
+    height: 55px;
+    margin-top: 100px;
+}
+
+.prices__item1 {
+    background-image: url(../img/prices.png) !important;
+    height: 265px;
+}
+
+.prices__item2 {
+    background-image: url(../img/prices.png);
+    height: 265px;
+}
+
+.prices__item3 {
+    background-image: url(../img/prices.png);
+    height: 265px;
+}
+
+.price__blue {
+    color: #2b569a;
+    width: 100%;
+    display: flex;
+    font-size: 22px;
+    font-family: "segoe_ui_bold";
+    justify-content: center;
+    float: right;
+}
+
+.price__blue_top {
+    position: relative;
+    top: 32px;
+}
+
+.price__blue_bottom {
+    position: relative;
+    top: 140px;
+}
+
+.price__white {
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "segoe_ui_bold";
+    justify-content: center;
+    float: right;
+    position: relative;
+    top: 85px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: white;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 2px solid white;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.prices__button {
+display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 280px;
+    color: #ffd800;
+    border: 3px solid;
+    font-family: "segoe_ui_bold";
+    font-size: 18px;
+margin-bottom: 50px;   
+}
+
+
+/*END PRICES TAB*/
