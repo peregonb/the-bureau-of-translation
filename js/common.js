@@ -6,7 +6,7 @@
          loop: true,
          dots: false,
          responsive: {
-              0: {
+             0: {
                  items: 1
              },
              400: {
@@ -20,15 +20,15 @@
                  dots: 3
              }
          }
-     })  
-        var owl = $('#owl-carousel-2');
+     })
+     var owl = $('#owl-carousel-2');
      owl.owlCarousel({
          margin: 10,
          nav: false,
          loop: true,
          dots: true,
          responsive: {
-              0: {
+             0: {
                  items: 1
              },
              400: {
@@ -44,3 +44,20 @@
          }
      })
  })
+
+ $(window).resize(function() {
+     var winwidth = $(window).innerWidth();
+     if (winwidth > 480) {
+         $('.reviews__control').css("display", "flex");
+     } else if (winwidth < 480) {
+         $('.reviews__control').css("display", "block");
+     }
+ });
+ $(window).ready(function() {
+     var winwidth = $(window).innerWidth();
+     if (winwidth > 480) {
+         $('.reviews__control').css("display", "flex");
+     } else if (winwidth < 480) {
+         $('.reviews__control').css("display", "block");
+     }
+ });

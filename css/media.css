@@ -7,7 +7,6 @@
     .services__subtile_10_text {
         font-size: 15px;
     }
-
 }
 
 
@@ -28,6 +27,17 @@
     .services__subtile_12 {
         margin-bottom: 50px;
     }
+    .reviews_button2 {
+        margin-bottom: 0;
+    }
+    .reviews_button2 {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 27px;
+        margin-bottom: 11px;
+    }
+    .reviews__button4 {}
+    .reviews__button3 {}
 }
 
 
@@ -48,6 +58,33 @@
     .services__subtile_12 {
         width: calc(40% - 15px);
         margin-bottom: 50px !important;
+    }
+    .reviews_button2 {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 27px;
+        margin-bottom: 11px;
+        margin-bottom: 0 !important;
+    }
+    .reviews__button3 {
+        width: 100% !important;
+    }
+    .reviews__button3 {
+        width: 100% !important;
+    }
+    .reviews__button4 {
+        width: 100% !important;
+        margin-left: 0;
+        text-align: center;
+    }
+    .reviews__button4 {
+        margin-left: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 498px) {
+    .reviews__button4 {
+        margin-left: 0 !important;
     }
 }
 
@@ -76,6 +113,49 @@
     }
     .prices__item3 {
         background-size: contain;
+    }
+    .reviews_ava1 {
+        background-image: url(../img/ava1.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 72px;
+        background-position: center;
+        width: 100%;
+    }
+    .reviews_ava2 {
+        background-image: url(../img/ava2.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 72px;
+        background-position: center;
+        width: 100%;
+    }
+    .reviews_name {
+        color: #2b569a;
+        font-size: 12px;
+        font-family: "segoe_ui_bold";
+        text-align: center;
+    }
+    .reviews_markname {
+        margin-top: 0;
+    }
+    .reviews_mark {
+        background-image: url(../img/stars.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 13px;
+        width: 83px;
+        margin: 0 auto;
+    }
+    .reviews_button2 {
+        width: 60%;
+        margin-bottom: 0 !important;
+    }
+    .reviews__button4 {}
+    .reviews__button3 {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 

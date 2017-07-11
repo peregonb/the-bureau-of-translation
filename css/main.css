@@ -299,16 +299,19 @@ a {
 .prices__item1 {
     background-image: url(../img/prices.png) !important;
     height: 265px;
+    background-size: contain;
 }
 
 .prices__item2 {
     background-image: url(../img/prices.png);
     height: 265px;
+    background-size: contain;
 }
 
 .prices__item3 {
     background-image: url(../img/prices.png);
     height: 265px;
+    background-size: contain;
 }
 
 .price__blue {
@@ -355,7 +358,7 @@ a {
 }
 
 .prices__button {
-display: flex;
+    display: flex;
     justify-content: center;
     padding: 10px 15px;
     height: 50px;
@@ -366,8 +369,192 @@ display: flex;
     border: 3px solid;
     font-family: "segoe_ui_bold";
     font-size: 18px;
-margin-bottom: 50px;   
+    margin-bottom: 50px;
 }
 
 
 /*END PRICES TAB*/
+
+
+/*START REVIEWS TAB*/
+
+.container__reviews {
+    background-color: #dcdcdc;
+}
+
+.reviews_ava1 {
+    background-image: url(../img/ava1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 72px;
+    width: 72px;
+}
+
+.reviews_ava2 {
+    background-image: url(../img/ava2.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 72px;
+    width: 72px;
+}
+
+.reviews_name {
+    color: #2b569a;
+    font-size: 12px;
+    font-family: "segoe_ui_bold";
+}
+
+.reviews_markname {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 13px;
+    float: right;
+}
+
+.reviews_mark {
+    background-image: url(../img/stars.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 13px;
+    width: 83px;
+}
+
+.reviews__slogan {
+    color: #2b569a;
+    font-family: "segoe_ui_bold";
+    font-size: 16px;
+    text-align: center;
+    line-height: 17px;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 30px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.reviews__desc {
+    font-family: "segoe_ui";
+    color: #282828;
+    font-size: 15px;
+    text-align: center;
+}
+
+.blue {
+    color: #2b569a;
+    border-color: #2b569a;
+}
+
+.reviews__people {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.reviews__button1 {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.reviews_tile1 {
+    background-color: white;
+    padding: 20px;
+}
+
+.reviews_tile2 {
+    background-color: #898989;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reviews_tile3 {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.reviews_icon1 {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/icon1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 24px;
+    width: 24px;
+}
+
+.reviews_icon2 {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/icon2.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 24px;
+    width: 24px;
+}
+
+.reviews_icon3 {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/icon3.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 24px;
+    width: 24px;
+}
+
+.reviews_desc {
+    text-align: center;
+    font-family: "segoe_ui_bold";
+    font-size: 16px;
+    margin-top: 14px;
+    line-height: 22px;
+}
+
+.reviews_button2 {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 11px;
+}
+
+.reviews__headlight {
+    width: 100%;
+    text-align: center;
+    color: #282828;
+    font-family: "segoe_ui_bold";
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.reviews__text {
+    font-family: "segoe_ui";
+    color: #282828;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reviews__control {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.reviews__button3 {
+    width: auto;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    float: left;
+}
+
+.reviews__button4 {
+    width: auto;
+    float: left;
+    display: table-cell;
+    margin-bottom: 50px;
+}
+
+
+/*END REVIEWS TAB*/
