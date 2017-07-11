@@ -558,3 +558,76 @@ a {
 
 
 /*END REVIEWS TAB*/
+
+
+/*SART FORM TAB*/
+
+.container__form {
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+}
+
+.yellow {
+    justify-content: flex-start;
+    color: #ffd800;
+    text-align: left;
+    line-height: 36px;
+}
+
+.yellow_hr {
+    justify-content: flex-start;
+    border-color: #ffd800;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+.whitebox {
+    background-color: white;
+    height: 500px;
+    margin-top: 5px;
+    border-radius: 11px;
+}
+
+.line {
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 82px;
+    width: auto;
+    margin-top: 30px;
+    color: #2b569a;
+    font-family: "segoe_ui_bold";
+    font-size: 16px;
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    padding-left: 110px;
+    padding-bottom: 14px;
+}
+
+.whitebox_hr {
+    border-top: 1px solid #999;
+    margin-top: 35px;
+}
+
+.form__contacts {
+    font-family: "segoe_ui";
+    color: #999;
+    font-size: 15px;
+    text-align: center;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+
+/*END FORM TAB*/
